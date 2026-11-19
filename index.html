@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>점잖은대장간 · Gentle Forge</title>
+<style>
+  :root {
+    --bg: #fbfaf7;
+    --fg: #1f2328;
+    --muted: #5b6370;
+    --line: #e3e0d8;
+    --box: #f1eee6;
+    --link: #1a5fb4;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #16191e;
+      --fg: #e7e9ec;
+      --muted: #a2a9b4;
+      --line: #2c3139;
+      --box: #1f242b;
+      --link: #8ab4f8;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font: 17px/1.7 system-ui, -apple-system, "Segoe UI", "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", Roboto, sans-serif;
+    word-break: keep-all;
+    overflow-wrap: anywhere;
+  }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+  a { color: var(--link); }
+  h1 { font-size: 1.7em; line-height: 1.3; margin: 0.4em 0 0; }
+  .sub { color: var(--muted); margin: 0 0 1.6em; }
+  .card { background: var(--box); border-radius: 12px; padding: 16px 18px; margin: 1.2em 0; }
+  .card h2 { font-size: 1.25em; margin: 0 0 0.2em; }
+  .card p { margin: 0 0 0.6em; }
+  .links { display: flex; flex-wrap: wrap; gap: 8px 20px; margin: 0; padding: 0; list-style: none; }
+  footer { margin-top: 2.4em; padding-top: 1em; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.94em; }
+</style>
+</head>
+<body>
+<main>
+  <h1>점잖은대장간</h1>
+  <p class="sub" lang="en">Gentle Forge</p>
+
+  <div class="card">
+    <h2>꿀꺽 블랙홀 <span lang="en">· Gulp Roll</span></h2>
+    <p>작은 블랙홀 공을 굴려 서울을 꿀꺽하는 어린이 게임(Google Play).<br>
+    <span lang="en">A children's game where you roll a little black-hole ball and gulp up Seoul (Google Play).</span></p>
+    <ul class="links">
+      <li><a href="gulp-roll/privacy.html">개인정보 처리방침</a> · <a href="gulp-roll/privacy.html#en" lang="en">Privacy Policy</a></li>
+      <li><a href="gulp-roll/terms.html">이용약관</a> · <a href="gulp-roll/terms.html#en" lang="en">Terms of Service</a></li>
+    </ul>
+  </div>
+
+  <footer>
+    <p>문의 · <span lang="en">Contact</span>: <a href="mailto:value202608@gmail.com">value202608@gmail.com</a></p>
+  </footer>
+</main>
+</body>
+</html>
